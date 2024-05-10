@@ -10,7 +10,7 @@ const Navbar = () => {
           <img
             src={svg}
             alt="Menu"
-            className="flex xsm:hidden "
+            className="hidden "
           />
           <Link to={"/"}>Home</Link>
           <Link to={"/About"}>About</Link>
